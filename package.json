@@ -1,0 +1,19 @@
+{
+  "name": "mcp-retail-torsob",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MCP server exposing Andaman Grand Kids Club SOP data (list_sops, get_sop, search_sop) over Streamable HTTP",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "express": "^4.21.2",
+    "zod": "^3.24.1"
+  }
+}
